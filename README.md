@@ -102,8 +102,8 @@ Works seamlessly with color as well.
 Custom prompt and color:
 ```py
 answer = Ask(
-    "Do you like pineapple on pizza?",
-    prompt_symbol="custom Hint >>",
+    "Does pineapple belong on pizza?",
+    prompt_symbol="custom (Hint, no)>>",
     style="bold italic",
     color="#FF3E1C"
 )
