@@ -1,0 +1,11 @@
+[project]
+name = "vAsk"
+version = "0.1.0"
+description = "A styled and flexible input helper for Python."
+authors = [{ name="VxidDev" }]
+requires-python = ">=3.8"
+dependencies = ["rich"]
+
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
